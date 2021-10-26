@@ -86,5 +86,16 @@ body {
             vertical-align: bottom;
         }
 }}
-
+// CONTACTO
+#formContacto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    input {
+        margin-bottom: 3%;
+    }
+    #btnEnviarForm{
+        margin: 5% 0% 0% 40%;
+    }
+}
 }

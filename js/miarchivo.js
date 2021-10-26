@@ -24,4 +24,27 @@ $(document).ready(function(){
             }
         }
     })
+
+    // CONTACTO
+    $('#contacto').append(`
+        <form id="formContacto" action="" class="m-4">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input class="form-control" name="nombre" id="nombre" type="text" >
+            <label for="apellido" class="form-label">Apellido</label>
+            <input class="form-control" name="apellido" id="apellido" type="text" placeholder="Apellido">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input class="form-control" name="telefono" id="tel" type="number" placeholder="Teléfono">
+            <label for="email" class="form-label">Email</label>
+            <input class="form-control" name="email" id="email" type="text" placeholder="Email">
+            <textarea name="comentario" class="form-control" placeholder="escribe aquí tu comentario"></textarea>
+                <div id="btnEnviarForm">
+                    <input type="submit" value="Enviar" class="btn btn-primary"></input>
+                </div>
+        </form>        
+    `)
+
+
+
+
+
 })
