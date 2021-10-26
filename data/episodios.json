@@ -1,0 +1,75 @@
+[
+    {
+        "img": "../media/blancanieves.jpeg",
+        "episodio": 1,
+        "nombre": "Blancanieves - La primera princesa",
+        "descripcion":"En este episodio, Ro, Lu, Romi y Nuri hablan sobre la princesa que dio inicio no solo a la franquicia sino a todo el universo de películas de Disney: Blancanieves. ", 
+        "id":1,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Blancanieves---La-primera-princesa-e13d4ui"
+    },
+    {   
+        "img":"../media/cheshire.png", 
+        "episodio":2, 
+        "nombre":"Las que casi casi (o cómo entrar a la franquicia)",
+        "descripcion": "En este episodio hablamos de cinco heroínas de Disney que podrían estar en la franquicia, pero no están. ¿Qué requisitos hay que cumplir para ser una princesa?",
+        "id":2,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Ep--Cheshire---Las-que-casi-casi-o-cmo-entrar-a-la-franquicia-e148lal"
+    },
+    {   
+        "img":"../media/cenicienta.jpeg", 
+        "episodio":3, 
+        "nombre":"Cenicienta - La princesa icónica",
+        "descripcion": "En este episodio hablamos nada menos que de la princesa en la que todo el mundo piensa cuando hablamos de princesas: Cenicienta. Prepárense un cafecito, té, mate o lo que quieran y disfruten, que hay un montón para escuchar.",
+        "id":3,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Cenicienta---La-princesa-icnica-e150cc0"
+    },
+    {   
+        "img":"../media/cheshire.png", 
+        "episodio":4, 
+        "nombre":"Las que son pero dejaron afuera - Parte 1",
+        "descripcion": "En este episodio hablamos sobre cinco princesas de Disney que, por una razón u otra, no pudieron ser parte de la franquicia.",
+        "id": 4,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Ep--Cheshire---Las-que-son-pero-dejaron-afuera---Parte-1-e15ld1j"
+    },
+    {   
+        "img":"../media/aurora.jpeg", 
+        "episodio":5, 
+        "nombre":"Aurora - La princesa menos protagonista",
+        "descripcion": "Hablamos sin parar sobre esta princesa que no dice mucho pero nos genera UN MONTÓN DE COSAS. Polémica, sentimientos encontrados, amor y bronca y ternura y una incomodidad tremenda en algunos momentos. Nos moríamos de ganas de hablar de ella y aquí está, con ustedes para que disfruten de esta aventura con tres hadas buenas, un gran príncipe y la mejor villana que nos supo dar Disney.",
+        "id":5,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Aurora---La-princesa-menos-protagonista-e16bsvu"
+    },
+    {   
+        "img":"../media/cheshire.png", 
+        "episodio":6, 
+        "nombre":"Las que son pero dejaron afuera - Parte 2",
+        "descripcion": "En este episodio hablamos sobre las princesas live action de Disney. Visitamos el universo de Star Wars, pasamos por Marvel y llegamos hasta Disney Channel. Esperamos que lo disfruten mucho y siempre son bienvenidos sus comentarios en nuestro Instagram @cyrelpodcast. Nos vemos en el deber de avisarles que hay un montón de spoilers de todas las películas y sagas que nombramos. ",
+        "id": 6,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Ep--Cheshire---Las-que-son-pero-dejaron-afuera---Parte-2-e172bd6"
+    },
+    {   
+        "img":"../media/ariel.jpeg", 
+        "episodio":7, 
+        "nombre":"Ariel - La princesa rebelde",
+        "descripcion": "En este episodio hablamos de Ariel, la sirena que amaba el mundo de la superficie y que tiene una de las mejores bandas sonoras de todo Disney. Un príncipe medio despistado pero buena gente, la bruja marina más siniestra y un montón de whosits, whatsits y thingamabobs.",
+        "id":7,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Ariel---La-princesa-rebelde-e17ji19"
+    },
+    {   
+        "img":"../media/cheshire.png", 
+        "episodio":8, 
+        "nombre":"Las del Reino Animal",
+        "descripcion": "En este episodio hablamos sobre tres (o cuatro) princesas NO humanas que han sido parte de nuestra infancia: hormigas, leones y monarquías del Reino Animal, mezclado con un poco de Animal Kingdom y nostalgia millennial. Imperdible.",
+        "id": 8,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Ep--Cheshire---Las-del-Reino-Animal-e1898qd"
+    },
+    {   
+        "img":"../media/cheshire.png", 
+        "episodio":9, 
+        "nombre":"Belle (o Bella) - La princesa lectora",
+        "descripcion": "En este episodio dimos todo. Belle, o Bella, una princesa polémica como todas, pero a la vez una de las favoritas y más queridas de toda la franquicia. La amamos a ella, a Bestia, a la Sra Potts, Chip, Din Don y Lumiere, a Maurice y hasta al caballo Phillip. Amamos a todos en esta peli menos a Gastón y sus secuaces. Gran y maravillosa película con una hermosísima historia de amor.",
+        "id": 9,
+        "link": "https://anchor.fm/calabazas-y-ratones/episodes/Belle-o-Bella---La-princesa-lectora-e191hnb"
+    }
+]
+

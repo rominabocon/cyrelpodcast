@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .bg-light {
+  background-color: #b394ce !important;
+}
+
+body .imgLogo {
+  width: 35px;
+  height: 35px;
+}
+
+body #usuario {
+  text-decoration: none;
+}
+
+body #usuario a {
+  color: black;
+}
+
+body #usuario .bi-person-circle {
+  font-size: 25px;
+}
+
+body #main .imgbg {
+  background-image: url(/media/nosotrasbg.jpg);
+  background-repeat: initial;
+  width: 100%;
+  height: 350px;
+}
+
+body .separador {
+  border: 3px solid #b394ce;
+}
+
+body .btnEpisodios {
+  text-align: center;
+}
+
+body #footer {
+  width: 100%;
+  margin-top: 14px;
+  background: #fac93d;
+  text-align: center;
+}
+
+body #footer footer {
+  width: 100%;
+}
+
+body #footer footer h3 {
+  font-size: 18px;
+}
+
+body #footer footer a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+
+body #footer footer .bi {
+  font-size: 25px;
+}
+
+body #footer footer .sectionRedes {
+  margin: 15px;
+}
+
+body #footer footer .sectionRedes a {
+  padding: 5px;
+}
+
+body #footer footer .footerHelp {
+  background-color: #fac93d;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  margin-bottom: 1%;
+  padding: 0 20px;
+}
+
+body #episodios .btnEp {
+  position: absolute;
+  bottom: 0;
+}
+
+body #episodios .btnEp .botonEp {
+  left: 80px;
+  position: relative;
+  top: -5px;
+  vertical-align: bottom;
+}
+/*# sourceMappingURL=estilos.css.map */
