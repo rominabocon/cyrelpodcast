@@ -1,7 +1,68 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,300;0,600;0,900;1,100;1,300;1,600;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Urbanist', sans-serif;
+}
+
+body header {
+  z-index: 100;
+}
+
+body .alert {
+  z-index: 100;
+}
+
+body .description {
+  height: 25px;
+  overflow: hidden;
+  -webkit-transition: height .3s ease-in .3s;
+  transition: height .3s ease-in .3s;
+}
+
+body .descriptionhover {
+  height: 80px;
+}
+
+body table {
+  vertical-align: middle !important;
+}
+
+body table .table-dark {
+  background-color: --bs-purple !important;
+}
+
+body table .table__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body table .table__productos img {
+  width: 4rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+body table .table__cantidad input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+body .hide {
+  display: none;
+}
+
+body .remove {
+  display: none;
 }
 
 body .bg-light {
@@ -11,6 +72,10 @@ body .bg-light {
 body .imgLogo {
   width: 35px;
   height: 35px;
+}
+
+body .bi-cart {
+  font-size: 25px;
 }
 
 body #usuario {
@@ -83,6 +148,10 @@ body #footer footer .footerHelp {
   padding: 0 20px;
 }
 
+body .card {
+  background-color: #b394ce !important;
+}
+
 body #episodios .btnEp {
   position: absolute;
   bottom: 0;
@@ -95,6 +164,21 @@ body #episodios .btnEp .botonEp {
   vertical-align: bottom;
 }
 
+body #contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #contacto .imgNos {
+  text-align: center;
+  margin: auto;
+}
+
+body #contacto .imgNos img {
+  width: 70%;
+}
+
 body #formContacto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,7 +187,7 @@ body #formContacto {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
+  width: 70%;
 }
 
 body #formContacto input {
@@ -112,5 +196,16 @@ body #formContacto input {
 
 body #formContacto #btnEnviarForm {
   margin: 5% 0% 0% 40%;
+}
+
+body #merch .btnEp {
+  position: absolute;
+}
+
+body #merch .btnEp button {
+  left: 250px;
+  position: relative;
+  top: -40px;
+  vertical-align: bottom;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,24 @@
+[
+    {
+        "img": "../media/taza.jpeg",
+        "producto": "Taza",
+        "descripcion":"Taza de porcelana con el logo del podcast", 
+        "id":101,
+        "precio": 500
+    },
+    {
+        "img": "../media/calendario.jpeg",
+        "producto": "Calendario",
+        "descripcion":"Calendario personalizado", 
+        "id":102,
+        "precio": 2000
+    },    
+    {
+        "img": "../media/cafecito.jpeg",
+        "producto": "Cafecito",
+        "descripcion":"Ayudanos con un cafesito!", 
+        "id":103,
+        "precio": 100
+    }
+]
+
