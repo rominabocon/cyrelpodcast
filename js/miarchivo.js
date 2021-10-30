@@ -1,5 +1,4 @@
-const episodios = "../data/episodios.json"
-
+const episodios = "../data/episodios.json";
 
 
 $(document).ready(function(){
@@ -26,27 +25,48 @@ $(document).ready(function(){
             }
         }
     })
-
+     
     // CONTACTO
-    $('#contacto').prepend(`
-        <form id="formContacto" action="" class="m-4">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input class="form-control" name="nombre" placeholder="Nombre" id="nombre" type="text" >
-            <label for="apellido" class="form-label">Apellido</label>
-            <input class="form-control" name="apellido" id="apellido" type="text" placeholder="Apellido">
-            <label for="telefono" class="form-label">Telefono</label>
-            <input class="form-control" name="telefono" id="tel" type="number" placeholder="Teléfono">
-            <label for="email" class="form-label">Email</label>
-            <input class="form-control" name="email" id="email" type="text" placeholder="Email">
-            <textarea name="comentario" class="form-control" placeholder="escribe aquí tu comentario"></textarea>
-                <div id="btnEnviarForm">
-                    <input type="submit" value="Enviar" class="btn btn-outline-dark"></input>
-                </div>
-        </form>        
-    `)
-    // MECHANDISING
+    var Capturar = function(){
+        let lstNumero = document.getElementsByClassName("form-control"),
+        comentsForm = [];  
+        for (var i = 0; i < lstNumero.length; i++) {    
+            comentsForm[i] = lstNumero[i].value;
+            console.log (lstNumero[i].value);     
+            }
+        localStorage.setItem('form', JSON.stringify(comentsForm));       
+        }
 
+    $('#enviarForm').click((e) => {
+        e.preventDefault();
 
+        if($('input').value != '') {
+            return(
+            Swal.fire(
+            '¡Compra Realizada!',
+            'Nos estaremos comunicando contigo para informarte los pasos a seguir',
+            'success').then(function(result){
+            if (result.isConfirmed)
+            Capturar();
+           
+            var guardando = localStorage.getItem('form')
+            console.log(guardando)
+            location.reload();
+            })
+            )
+          }else {
+            return (
+              Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El carrito esta vacio!',
+                footer: 'Agrega productos para continuar'
+              })
+            )
+          }
+        
+        
+    })
 
 
 })

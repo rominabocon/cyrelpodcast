@@ -6,8 +6,24 @@
   font-family: 'Urbanist', sans-serif;
 }
 
-body header {
-  z-index: 100;
+body {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
+}
+
+body .navbar {
+  font-size: 25px;
+}
+
+@media only screen and (min-width: 1290px) {
+  body .navbar {
+    font-size: 20px;
+  }
 }
 
 body .alert {
@@ -78,18 +94,6 @@ body .bi-cart {
   font-size: 25px;
 }
 
-body #usuario {
-  text-decoration: none;
-}
-
-body #usuario a {
-  color: black;
-}
-
-body #usuario .bi-person-circle {
-  font-size: 25px;
-}
-
 body #main .imgbg {
   background-image: url(/media/nosotrasbg.jpg);
   background-repeat: initial;
@@ -97,12 +101,106 @@ body #main .imgbg {
   height: 350px;
 }
 
+@media only screen and (max-width: 400px) {
+  body #main .imgbg {
+    background-size: cover;
+    height: 120px;
+  }
+}
+
 body .separador {
   border: 3px solid #b394ce;
 }
 
-body .btnEpisodios {
-  text-align: center;
+body .indexBtn {
+  width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  body .indexBtn {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1290px) {
+  body .indexBtn {
+    height: 250px;
+  }
+}
+
+body .indexBtn .btnEpisodios {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+@media only screen and (min-width: 1290px) {
+  body .indexBtn .btnEpisodios {
+    display: block;
+  }
+}
+
+body .indexBtn .btnEpisodios a {
+  width: 60%;
+}
+
+@media only screen and (max-width: 400px) {
+  body .indexBtn .btnEpisodios a {
+    width: 100%;
+  }
+}
+
+body .indexBtn .btnEpisodios a button {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  body .indexBtn .btnEpisodios a button {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1290px) {
+  body .indexBtn .btnEpisodios a button {
+    font-size: 20px;
+  }
+}
+
+body #accordionExample {
+  color: #723ba1 !important;
+}
+
+body #accordionExample .accordion-button {
+  background-color: #9164ab !important;
+  color: white;
+}
+
+body #accordionExample .redesAcordeon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+body #accordionExample .redesAcordeon ul li {
+  margin: 10px 20px 5px 20px;
+}
+
+body #accordionExample .redesAcordeon a {
+  color: black;
+}
+
+body #accordionExample .redesAcordeon a .bi {
+  font-size: 30px;
 }
 
 body #footer {
@@ -112,12 +210,32 @@ body #footer {
   text-align: center;
 }
 
+@media only screen and (max-width: 1290px) {
+  body #footer {
+    font-size: 15px;
+    position: unset;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body #footer {
+    position: unset;
+  }
+}
+
 body #footer footer {
+  margin-top: 10px;
   width: 100%;
 }
 
 body #footer footer h3 {
   font-size: 18px;
+}
+
+@media only screen and (min-width: 1290px) {
+  body #footer footer h3 {
+    font-size: 14px;
+  }
 }
 
 body #footer footer a {
@@ -130,8 +248,31 @@ body #footer footer .bi {
   font-size: 25px;
 }
 
+@media only screen and (min-width: 1290px) {
+  body #footer footer .bi {
+    font-size: 18px;
+  }
+}
+
 body #footer footer .sectionRedes {
   margin: 15px;
+}
+
+@media only screen and (min-width: 1290px) {
+  body #footer footer .sectionRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin: 5px;
+  }
+  body #footer footer .sectionRedes h3 {
+    margin-top: 10px;
+  }
 }
 
 body #footer footer .sectionRedes a {
@@ -146,6 +287,12 @@ body #footer footer .footerHelp {
       grid-template-columns: 33% 33% 33%;
   margin-bottom: 1%;
   padding: 0 20px;
+}
+
+@media only screen and (min-width: 1290px) {
+  body #footer footer .footerHelp {
+    margin-bottom: 2px;
+  }
 }
 
 body .card {
@@ -170,6 +317,12 @@ body #contacto {
   display: flex;
 }
 
+@media only screen and (max-width: 400px) {
+  body #contacto {
+    display: block;
+  }
+}
+
 body #contacto .imgNos {
   text-align: center;
   margin: auto;
@@ -188,6 +341,12 @@ body #formContacto {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 70%;
+}
+
+@media only screen and (max-width: 400px) {
+  body #formContacto {
+    margin: auto;
+  }
 }
 
 body #formContacto input {

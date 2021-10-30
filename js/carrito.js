@@ -175,10 +175,28 @@ function sumaCantidad(e){
 
 $('.compraRealizada').click (() => {
   if(carrito!= '') {
-   return alert("felicidades")
+    return(
+    Swal.fire(
+    '¡Compra Realizada!',
+    'Nos estaremos comunicando contigo para informarte los pasos a seguir',
+    'success').then(function(result){
+      if (result.isConfirmed)
+      tbody.remove()
+      location.reload()
+      
+    })
+    )
   }else {
-    alert("auch")
+    return (
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'El carrito esta vacio!',
+        footer: 'Agrega productos para continuar'
+      })
+    )
   }
+
   }
 )
 

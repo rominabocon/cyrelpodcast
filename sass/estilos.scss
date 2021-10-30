@@ -7,9 +7,17 @@
 }
 
 body {
-    header{
-        z-index: 100;
+    @media only screen and (max-width: 400px) {
+        width: 100%;
     }
+    height: 100vh;
+    .navbar {
+        font-size: 25px;
+        @media only screen and (min-width: 1290px) {
+            font-size: 20px;
+        }
+    }
+   
     .alert {
         z-index: 100;
     }
@@ -22,6 +30,8 @@ body {
         }
     }
     table {
+       
+
         vertical-align: middle !important;
         .table-dark {
             background-color: --bs-purple !important;
@@ -65,39 +75,106 @@ body {
     .bi-cart {
         font-size: 25px;
     }
-    #usuario {
-        text-decoration: none;
-        a {
-            color: black;
-        }
-        .bi-person-circle {
-            font-size: 25px;
-        }
-    }
+
     #main {
         .imgbg {
             background-image: url(/media/nosotrasbg.jpg);
             background-repeat: initial;
             width: 100%;
             height: 350px;
+            @media only screen and (max-width:400px) {
+            background-size: cover;
+            height: 120px;
+
+            }
         }
     }
     .separador {
         border: 3px solid #b394ce;
     }
-    .btnEpisodios {
-        text-align: center;
+    .indexBtn {
+        width: 100%;
+        @media only screen and (max-width: 400px) {
+            width: 60%;
+            margin: auto;
+        }
+        @media only screen and (min-width:1290px){
+            height: 250px;
+        }
+        .btnEpisodios {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+
+            @media only screen and (min-width:1290px){
+                display: block;
+            }
+            a {
+                width: 60%;
+                @media only screen and (max-width: 400px) {
+                    width: 100%;
+                }
+                button {
+                font-size: 30px;
+                @media only screen and (max-width: 400px) {
+                    font-size: 10px;
+                }
+                @media only screen and (min-width:1290px){
+                    font-size: 20px;
+                }
+                }
+            }
+        }
+    }
+
+    #accordionExample {
+        color: #723ba1 !important;
+        .accordion-button {
+            background-color: #9164ab !important;
+            color: white;
+        }
+        .redesAcordeon {
+            ul {
+                display: flex;
+                list-style: none;
+                li {
+                    margin: 10px 20px 5px 20px;
+                }
+            }
+            a {
+                color: black;
+                .bi {
+                    font-size: 30px;
+                }
+            }
+        }
     }
     #footer {
+        @media only screen and (max-width: 1290px) {
+            
+            font-size: 15px;
+            position: unset;
+        }
+        @media only screen and (max-width: 400px) {
+        position: unset;
+        }
         width: 100%;
         margin-top: 14px;
         background:#fac93d;
         text-align: center;
         footer {
+            margin-top: 10px;
             width: 100%;
-        
+            
+            
         h3 {
             font-size: 18px;
+
+            @media only screen and (min-width:1290px){
+                font-size: 14px;
+            }
         }
         a {
             font-weight: bolder;
@@ -106,9 +183,23 @@ body {
         }
         .bi {
             font-size: 25px;
+
+            @media only screen and (min-width:1290px){
+                font-size: 18px;
+            }
         }
         .sectionRedes{
             margin: 15px;
+
+            @media only screen and (min-width:1290px){
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin: 5px;
+                h3 {
+                    margin-top: 10px;
+                }
+            }
 
             a {
                 padding: 5px;
@@ -121,6 +212,9 @@ body {
             grid-template-columns: 33% 33% 33%;
             margin-bottom: 1%;
             padding: 0 20px;
+            @media only screen and (min-width:1290px){
+                margin-bottom: 2px;
+            }
         }
     }
 }
@@ -145,6 +239,10 @@ body {
 // CONTACTO
 #contacto {
     display: flex;
+    @media only screen and (max-width: 400px) {
+        display: block;
+    }
+
     .imgNos {
         text-align: center;
         margin: auto;
@@ -157,6 +255,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 70%;
+
+    @media only screen and (max-width: 400px) {
+    margin: auto;
+    }
     input {
         margin-bottom: 3%;
     }
