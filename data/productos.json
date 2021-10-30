@@ -16,7 +16,7 @@
     {
         "img": "../media/cafecito.jpeg",
         "producto": "Cafecito",
-        "descripcion":"Ayudanos con un cafesito!", 
+        "descripcion":"Ayudanos con un cafecito!", 
         "id":103,
         "precio": 100
     }
