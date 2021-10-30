@@ -13,7 +13,7 @@ body {
     height: 100vh;
     .navbar {
         font-size: 25px;
-        @media only screen and (min-width: 1290px) {
+        @media only screen and (max-width: 1290px) {
             font-size: 20px;
         }
     }
@@ -98,7 +98,7 @@ body {
             width: 60%;
             margin: auto;
         }
-        @media only screen and (min-width:1290px){
+        @media only screen and (max-width:1290px){
             height: 250px;
         }
         .btnEpisodios {
@@ -108,7 +108,7 @@ body {
             align-items: center;
             height: 100px;
 
-            @media only screen and (min-width:1290px){
+            @media only screen and (max-width:1290px){
                 display: block;
             }
             a {
@@ -121,7 +121,7 @@ body {
                 @media only screen and (max-width: 400px) {
                     font-size: 10px;
                 }
-                @media only screen and (min-width:1290px){
+                @media only screen and (max-width:1290px){
                     font-size: 20px;
                 }
                 }
@@ -172,7 +172,7 @@ body {
         h3 {
             font-size: 18px;
 
-            @media only screen and (min-width:1290px){
+            @media only screen and (max-width:1290px){
                 font-size: 14px;
             }
         }
@@ -184,14 +184,14 @@ body {
         .bi {
             font-size: 25px;
 
-            @media only screen and (min-width:1290px){
+            @media only screen and (max-width:1290px){
                 font-size: 18px;
             }
         }
         .sectionRedes{
             margin: 15px;
 
-            @media only screen and (min-width:1290px){
+            @media only screen and (max-width:1290px){
                 display: flex;
                 justify-content: center;
                 align-content: center;
@@ -212,7 +212,7 @@ body {
             grid-template-columns: 33% 33% 33%;
             margin-bottom: 1%;
             padding: 0 20px;
-            @media only screen and (min-width:1290px){
+            @media only screen and (max-width:1290px){
                 margin-bottom: 2px;
             }
         }
