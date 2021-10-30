@@ -152,9 +152,14 @@ body {
         }
     }
     #footer {
-        @media only screen and (min-width: 1290px) {
+        @media only screen and (max-width: 1290px) {
             
             font-size: 15px;
+            position: unset;
+        }
+        @media only screen and (min-width: 1290px) {
+            
+
             position: unset;
         }
         @media only screen and (max-width: 400px) {
@@ -172,9 +177,12 @@ body {
         h3 {
             font-size: 18px;
 
-            @media only screen and (max-width:1290px){
+            @media only screen and (max-width:1300px){
                 font-size: 14px;
             }
+            @media only screen and (max-width: 400px) {
+                font-size: 14px;
+                }
         }
         a {
             font-weight: bolder;
@@ -184,9 +192,12 @@ body {
         .bi {
             font-size: 25px;
 
-            @media only screen and (max-width:1290px){
+            @media only screen and (min-width:1290px){
                 font-size: 18px;
             }
+            @media only screen and (max-width: 400px) {
+                font-size: 14px;
+                }
         }
         .sectionRedes{
             margin: 15px;
@@ -239,7 +250,7 @@ body {
 // CONTACTO
 #contacto {
     display: flex;
-    @media only screen and (max-width: 400px) {
+    @media only screen and (min-width: 400px) {
         display: block;
     }
 
@@ -256,8 +267,8 @@ body {
     flex-direction: column;
     width: 70%;
 
-    @media only screen and (max-width: 400px) {
-    margin: auto;
+    @media only screen and (min-width: 400px) {
+    margin-left: 60px !important;
     }
     input {
         margin-bottom: 3%;

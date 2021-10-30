@@ -210,9 +210,15 @@ body #footer {
   text-align: center;
 }
 
-@media only screen and (min-width: 1290px) {
+@media only screen and (max-width: 1290px) {
   body #footer {
     font-size: 15px;
+    position: unset;
+  }
+}
+
+@media only screen and (min-width: 1290px) {
+  body #footer {
     position: unset;
   }
 }
@@ -232,7 +238,13 @@ body #footer footer h3 {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 1290px) {
+@media only screen and (max-width: 1300px) {
+  body #footer footer h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
   body #footer footer h3 {
     font-size: 14px;
   }
@@ -248,9 +260,15 @@ body #footer footer .bi {
   font-size: 25px;
 }
 
-@media only screen and (max-width: 1290px) {
+@media only screen and (min-width: 1290px) {
   body #footer footer .bi {
     font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body #footer footer .bi {
+    font-size: 14px;
   }
 }
 
@@ -317,7 +335,7 @@ body #contacto {
   display: flex;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
   body #contacto {
     display: block;
   }
@@ -343,9 +361,9 @@ body #formContacto {
   width: 70%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
   body #formContacto {
-    margin: auto;
+    margin-left: 60px !important;
   }
 }
 
